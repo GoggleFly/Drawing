@@ -10,13 +10,13 @@
 		6594CBE52A65A9AB00BA3B9A /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594CBE42A65A9AB00BA3B9A /* DrawingApp.swift */; };
 		6594CBE72A65A9AB00BA3B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594CBE62A65A9AB00BA3B9A /* ContentView.swift */; };
 		6594CBEC2A65A9AB00BA3B9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6594CBEB2A65A9AB00BA3B9A /* Preview Assets.xcassets */; };
-		65C8B96C2A7310FE000C27D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8B96B2A7310FE000C27D0 /* Assets.xcassets */; };
 		65C8B96E2A73163F000C27D0 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B96D2A73163F000C27D0 /* ColorCyclingCircle.swift */; };
 		65C8B9702A73168C000C27D0 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B96F2A73168C000C27D0 /* Flower.swift */; };
 		65C8B9722A7316C4000C27D0 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B9712A7316C4000C27D0 /* Triangle.swift */; };
 		65C8B9742A7316FA000C27D0 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B9732A7316FA000C27D0 /* Arc.swift */; };
 		65C8B9762A743BE6000C27D0 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B9752A743BE6000C27D0 /* Trapezoid.swift */; };
 		65C8B9782A744574000C27D0 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B9772A744574000C27D0 /* Checkerboard.swift */; };
+		65C8B97A2A744A64000C27D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8B9792A744A64000C27D0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +24,13 @@
 		6594CBE42A65A9AB00BA3B9A /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		6594CBE62A65A9AB00BA3B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6594CBEB2A65A9AB00BA3B9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65C8B96B2A7310FE000C27D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/HackingWithSwift/SwiftUI/project9/Drawing/Assets.xcassets; sourceTree = "<group>"; };
 		65C8B96D2A73163F000C27D0 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 		65C8B96F2A73168C000C27D0 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		65C8B9712A7316C4000C27D0 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		65C8B9732A7316FA000C27D0 /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
 		65C8B9752A743BE6000C27D0 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 		65C8B9772A744574000C27D0 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		65C8B9792A744A64000C27D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 				65C8B96F2A73168C000C27D0 /* Flower.swift */,
 				65C8B9732A7316FA000C27D0 /* Arc.swift */,
 				65C8B9752A743BE6000C27D0 /* Trapezoid.swift */,
-				65C8B96B2A7310FE000C27D0 /* Assets.xcassets */,
+				65C8B9792A744A64000C27D0 /* Assets.xcassets */,
 				6594CBEA2A65A9AB00BA3B9A /* Preview Content */,
 				65C8B9772A744574000C27D0 /* Checkerboard.swift */,
 			);
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6594CBEC2A65A9AB00BA3B9A /* Preview Assets.xcassets in Resources */,
-				65C8B96C2A7310FE000C27D0 /* Assets.xcassets in Resources */,
+				65C8B97A2A744A64000C27D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
