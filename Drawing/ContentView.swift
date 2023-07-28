@@ -17,6 +17,9 @@ struct ContentView: View {
     
     @State private var insetAmount = 50.0
     
+    @State private var rows = 4
+    @State private var columns = 4
+    
     var body: some View {
         TabView {
             NavigationView {
@@ -110,10 +113,10 @@ struct ContentView: View {
                         .ignoresSafeArea()
                     }
                 }
-                .navigationTitle("SwiftUI Drawing")
+                .navigationTitle("Drawings")
             }
             .tabItem {
-                Label("Building Blocks", systemImage: "puzzlepiece.fill")
+                Label("Drawings", systemImage: "paintbrush.pointed.fill")
             }
             
             
@@ -125,8 +128,21 @@ struct ContentView: View {
                     }
                 }
                 .tabItem {
-                    Label("Test 2", systemImage: "target")
+                    Label("Trapezoid", systemImage: "trapezoid.and.line.vertical.fill")
                 }
+            
+            Checkerboard(rows: rows, columns: columns)
+                .onTapGesture {
+                    withAnimation(.linear(duration: 3)) {
+                        rows = 8
+                        columns = 16
+                    }
+                }
+                .tabItem {
+                    Label("Checkerboard", systemImage: "checkerboard.rectangle")
+                }
+            
+   
         }
     }
 }
