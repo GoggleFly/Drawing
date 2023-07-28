@@ -142,7 +142,10 @@ struct ContentView: View {
                     Label("Checkerboard", systemImage: "checkerboard.rectangle")
                 }
             
-   
+            SpiroView()
+                .tabItem {
+                    Label("Spiro", systemImage: "circle.hexagonpath")
+                }
         }
     }
 }
