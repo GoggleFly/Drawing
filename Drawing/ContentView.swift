@@ -12,6 +12,8 @@ struct ContentView: View {
     @State private var petalWidth = 100.0
     
     @State private var colorCycle = 0.0
+    @State private var gradientXPoint = 0.0
+    @State private var gradientYPoint = 0.0
     
     @State private var sfxAmount = 0.0
     
@@ -63,6 +65,34 @@ struct ContentView: View {
                             
                             Slider(value: $colorCycle)
                                 .padding([.top, .horizontal])
+                        }
+                    }
+                    
+                    NavigationLink("ColorCyclingRectangle") {
+                        VStack {
+                            ColorCyclingRectangle(
+                                amount: colorCycle,
+                                gradientStartPoint: UnitPoint(x: 1.0, y: 0.5),
+                                gradientEndPoint: UnitPoint(x: gradientXPoint, y: gradientYPoint)
+                            )
+                                .frame(width: 300, height: 200)
+                            
+                            Spacer()
+                            
+                            Group {
+                                Text("Color cycle: \(colorCycle)")
+                                Slider(value: $colorCycle)
+                                    .padding([.top, .horizontal])
+                                
+                                Text("Gradient X point: \(gradientXPoint)")
+                                Slider(value: $gradientXPoint, in: -1.0...1.0)
+                                    .padding([.top, .horizontal])
+                                
+                                Text("Gradient Y point: \(gradientYPoint)")
+                                Slider(value: $gradientYPoint, in: -1.0...1.0)
+                                    .padding([.top, .horizontal])
+                                
+                            }
                         }
                     }
                     
@@ -145,6 +175,11 @@ struct ContentView: View {
             SpiroView()
                 .tabItem {
                     Label("Spiro", systemImage: "circle.hexagonpath")
+                }
+            
+            Arrow()
+                .tabItem {
+                    Label("Arrow", systemImage: "arrow.up")
                 }
         }
     }

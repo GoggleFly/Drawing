@@ -18,6 +18,8 @@
 		65C8B9782A744574000C27D0 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B9772A744574000C27D0 /* Checkerboard.swift */; };
 		65C8B97A2A744A64000C27D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C8B9792A744A64000C27D0 /* Assets.xcassets */; };
 		65C8B97E2A7451E0000C27D0 /* SpiroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8B97D2A7451E0000C27D0 /* SpiroView.swift */; };
+		65CC7C182A8BFFE7003D5DE8 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC7C172A8BFFE7003D5DE8 /* Arrow.swift */; };
+		65CC7C1A2A8C03AD003D5DE8 /* ColorCyclingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC7C192A8C03AD003D5DE8 /* ColorCyclingRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		65C8B9772A744574000C27D0 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
 		65C8B9792A744A64000C27D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C8B97D2A7451E0000C27D0 /* SpiroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiroView.swift; sourceTree = "<group>"; };
+		65CC7C172A8BFFE7003D5DE8 /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		65CC7C192A8C03AD003D5DE8 /* ColorCyclingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +72,14 @@
 				6594CBE42A65A9AB00BA3B9A /* DrawingApp.swift */,
 				6594CBE62A65A9AB00BA3B9A /* ContentView.swift */,
 				65C8B96D2A73163F000C27D0 /* ColorCyclingCircle.swift */,
+				65CC7C192A8C03AD003D5DE8 /* ColorCyclingRectangle.swift */,
 				65C8B9712A7316C4000C27D0 /* Triangle.swift */,
 				65C8B96F2A73168C000C27D0 /* Flower.swift */,
 				65C8B9732A7316FA000C27D0 /* Arc.swift */,
 				65C8B9752A743BE6000C27D0 /* Trapezoid.swift */,
 				65C8B9772A744574000C27D0 /* Checkerboard.swift */,
 				65C8B97D2A7451E0000C27D0 /* SpiroView.swift */,
+				65CC7C172A8BFFE7003D5DE8 /* Arrow.swift */,
 				65C8B9792A744A64000C27D0 /* Assets.xcassets */,
 				6594CBEA2A65A9AB00BA3B9A /* Preview Content */,
 			);
@@ -161,9 +167,11 @@
 				6594CBE72A65A9AB00BA3B9A /* ContentView.swift in Sources */,
 				65C8B96E2A73163F000C27D0 /* ColorCyclingCircle.swift in Sources */,
 				65C8B9782A744574000C27D0 /* Checkerboard.swift in Sources */,
+				65CC7C182A8BFFE7003D5DE8 /* Arrow.swift in Sources */,
 				65C8B9742A7316FA000C27D0 /* Arc.swift in Sources */,
 				65C8B9722A7316C4000C27D0 /* Triangle.swift in Sources */,
 				65C8B9702A73168C000C27D0 /* Flower.swift in Sources */,
+				65CC7C1A2A8C03AD003D5DE8 /* ColorCyclingRectangle.swift in Sources */,
 				65C8B9762A743BE6000C27D0 /* Trapezoid.swift in Sources */,
 				6594CBE52A65A9AB00BA3B9A /* DrawingApp.swift in Sources */,
 				65C8B97E2A7451E0000C27D0 /* SpiroView.swift in Sources */,
